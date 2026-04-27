@@ -1,0 +1,13 @@
+fschat==0.2.23
+litellm
+wandb
+pandas
+psutil
+openai
+anthropic
+google-generativeai
+datasets
+evaluate
+numpy
+seaborn
+matplotlib
