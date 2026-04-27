@@ -1,0 +1,7 @@
+dataset: data/advbench/harmful_behaviors.csv
+attack_config: configs/attack_config.yaml
+model_config: configs/model_config.yaml
+defense_config: configs/defense_config.yaml
+output_root: results/
+random_seed: 42
+

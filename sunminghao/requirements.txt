@@ -1,0 +1,16 @@
+torch
+transformers
+datasets
+sentence-transformers
+numpy
+pandas
+scikit-learn
+pyyaml
+python-dotenv
+tqdm
+requests
+pytest
+openai
+peft
+accelerate
+bitsandbytes

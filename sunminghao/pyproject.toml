@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-redteam-testing"
+version = "0.1.0"
+description = "An Enhanced AutoDAN Framework for Automated Red Team Testing Against Large Language Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sun Minghao" }]
+dependencies = [
+  "torch",
+  "transformers",
+  "datasets",
+  "sentence-transformers",
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "pyyaml",
+  "python-dotenv",
+  "tqdm",
+  "requests",
+  "openai",
+  "pytest",
+  "peft",
+  "accelerate",
+  "bitsandbytes",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

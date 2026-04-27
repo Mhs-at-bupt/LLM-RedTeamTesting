@@ -1,0 +1,12 @@
+batch_size: 32
+max_iterations: 100
+user_prompt_mutation_probability: 0.10
+character_mutation_probability: 0.20
+word_mutation_probability: 0.40
+sentence_mutation_probability: 0.40
+crossover_repair_interval: 5
+momentum_coefficient: 0.90
+semantic_threshold: 0.75
+query_budget: 500
+random_seed: 42
+

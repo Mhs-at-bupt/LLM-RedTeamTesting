@@ -1,0 +1,11 @@
+base_model: "path/to/base-model"
+output_dir: "adapters/peft-safety"
+train_file: "data/private/peft_train.jsonl"
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+learning_rate: 2e-5
+batch_size: 4
+epochs: 3
+max_length: 2048
+

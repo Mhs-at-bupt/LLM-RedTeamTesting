@@ -1,0 +1,23 @@
+open_source_models:
+  - llama-2-7b-chat
+  - gemma-2-9b
+  - qwen3-8b-instruct
+
+closed_source_models:
+  - gpt-4.1
+  - grok-4.1-fast-reason
+  - deepseek-v3.1
+
+generation:
+  temperature: 0.7
+  max_tokens: 256
+  top_p: 0.9
+
+open_source_runtime:
+  model_id: "Qwen/Qwen2.5-1.5B-Instruct"
+  trust_remote_code: false
+  device_map: "auto"
+  torch_dtype: "float16"
+  timeout: 60
+  max_retries: 3
+  use_mock_when_unavailable: true
